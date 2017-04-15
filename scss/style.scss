@@ -1,0 +1,67 @@
+@import 'uikit-variables';
+@import 'uikit-mixins';
+@import 'uikit';
+@import 'components/slideshow';
+@import 'components/slidenav';
+@import 'components/dotnav';
+@import 'components/sticky';
+
+$footer-background-color: darken(#848484, 30%);
+$footer-text-color: #ccc;
+$content-body-width: 94%;
+$content-body-margin: (100% - $content-body-width) / 2;
+
+.home-body {
+  width: $content-body-width;
+  margin-left: $content-body-margin;
+  margin-bottom: 60px;
+  .cali-pics {
+    text-align: center;
+  }
+  .custom-tile {
+    padding: 30px;
+    background: #eaeaea;
+    text-align: center;
+    margin-top: 40px;
+    opacity: 0.95;
+
+    .contact-form {
+    	input, textarea {
+    		border-radius: 10px;
+    		width: 80%;
+    	}
+    }
+  }
+}
+
+.home-tiles {
+  text-align: center;
+}
+
+.wrapper {
+  height: 100vh;
+}
+
+.contact-page {
+  background-image: url("../img/contactus.jpg");
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: $footer-background-color;
+  color: $footer-text-color;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 1.1em;
+}
+
+.uk-navbar-toggle {
+  color: #8a8a8a;
+}
+
+.uk-button {
+  border-radius: 6px;
+}

@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Traveling the World</title>
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/jquery-3.2.0.min.js"></script>
+  <script type="text/javascript" src="js/uikit.min.js"></script>
+  <script src="js/components/slideshow.min.js"></script>
+  <script src="js/components/sticky.min.js"></script>
+</head>
+
+<body>
+  <div id="offcanvasstuff" class="uk-offcanvas">
+    <div class="uk-offcanvas-bar">
+      <ul class="uk-nav">
+        <li class="uk-active"><a href="index.html">Home</a></li>
+        <li><a href="california.html">California</a></li>
+        <li><a href="coming_soon.html">Hawaii</a></li>
+        <li><a href="coming_soon.html">Bahamas</a></li>
+        <li><a href="coming_soon.html">Machu Picchu</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrapper">
+    <!-- UIKIT NAVBAR -->
+    <nav class="uk-navbar" data-uk-sticky>
+      <a href="#offcanvasstuff" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
+      <ul class="uk-navbar-nav uk-hidden-small">
+        <li class="uk-active"><a href="index.html">Home</a></li>
+        <li><a href="california.html">California</a></li>
+        <li><a href="coming_soon.html">Hawaii</a></li>
+        <li><a href="coming_soon.html">Bahamas</a></li>
+        <li><a href="coming_soon.html">Machu Picchu</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    <!-- END UIKIT NAVBAR -->
+    <!-- UIKIT SLIDESHOW AND SLIDENAV AND DOTNAV -->
+    <div class="uk-slidenav-position" data-uk-slideshow="{autoplay:true, kenburns:true}">
+      <ul class="uk-slideshow">
+        <li>
+          <img src="img/home/home-header-large.jpg">
+          <div class="uk-overlay-panel uk-overlay-background uk-overlay-fade uk-flex uk-flex-center uk-flex-middle uk-text-center">
+            <div>
+              <h1>Exploring the World.</h1>
+              <h4>Beautiful beaches, breath-taking sights, peaceful nature. These are just some of the great feelings to experience while traveling around the world.</h4>
+            </div>
+          </div>
+        </li>
+        <li>
+          <img src="img/california/cali-header-large.jpg">
+          <div class="uk-overlay-panel uk-overlay-background uk-overlay-fade uk-flex uk-flex-center uk-flex-middle uk-text-center">
+            <div>
+              <h1>Exploring the World.</h1>
+              <h4>Beautiful beaches, breath-taking sights, peaceful nature. These are just some of the great feelings to experience while traveling around the world.</h4>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-previous" data-uk-slideshow-item="previous"></a>
+      <a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-next" data-uk-slideshow-item="next"></a>
+      <ul class="uk-dotnav uk-dotnav-contrast uk-position-bottom uk-flex-center">
+        <li data-uk-slideshow-item="0">
+          <a href=""></a>
+        </li>
+        <li data-uk-slideshow-item="1">
+          <a href=""></a>
+        </li>
+      </ul>
+    </div>
+    <!-- END UIKIT SLIDESHOW AND SLIDENAV AND DOTNAV -->
+    <br/>
+    <br/>
+    <div class="home-body">
+      <div class="uk-grid uk-grid-divider uk-grid-match" data-uk-grid-match="{target:'.uk-panel'}">
+        <div class="uk-width-large-1-4 uk-width-medium-1-2 uk-width-small-1-2 home-tiles">
+          <div class="uk-panel uk-panel-box">
+            <h2 class="uk-panel-title">California</h2>
+            <div class="uk-panel-teaser">
+              <img src="img/home/california-large.jpg" width="100%" alt="California">
+            </div>
+            <p>Endless stretch of beautiful beaches and fantastic sights year-round!</p>
+            <a class="uk-button uk-button-primary" href="california.html">Read More</a>
+          </div>
+        </div>
+        <div class="uk-width-large-1-4 uk-width-medium-1-2 uk-width-small-1-2 home-tiles">
+          <div class="uk-panel uk-panel-box">
+            <h2 class="uk-panel-title">Hawaii</h2>
+            <div class="uk-panel-teaser">
+              <img src="img/home/hawaii-large.jpg" width="100%" alt="Hawaii">
+            </div>
+            <p>Beautiful chain of islands with an amazing culture!</p>
+            <a class="uk-button uk-button-primary" href="coming_soon.html">Read More</a>
+          </div>
+        </div>
+        <div class="uk-width-large-1-4 uk-width-medium-1-2 uk-width-small-1-2 home-tiles">
+          <div class="uk-panel uk-panel-box">
+            <h2 class="uk-panel-title">Bahamas</h2>
+            <div class="uk-panel-teaser">
+              <img src="img/home/bahamas-large.jpg" width="100%" alt="Bahamas">
+            </div>
+            <p>Amazing weather year round with lots of water activities for the entire family!</p>
+            <a class="uk-button uk-button-primary" href="coming_soon.html">Read More</a>
+          </div>
+        </div>
+        <div class="uk-width-large-1-4 uk-width-medium-1-2 uk-width-small-1-2 home-tiles">
+          <div class="uk-panel uk-panel-box">
+            <h2 class="uk-panel-title">Machu Picchu</h2>
+            <div class="uk-panel-teaser">
+              <img src="img/home/machu_picchu-large.jpg" width="100%" alt="Machu Picchu">
+            </div>
+            <p>Breath-taking hike with countless spots to view mountain ranges and historical sights!</p>
+            <a class="uk-button uk-button-primary" href="coming_soon.html">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer">
+        &copy 2017 Yash Patel
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>

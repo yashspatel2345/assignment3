@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Traveling the World</title>
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/jquery-3.2.0.min.js"></script>
+  <script type="text/javascript" src="js/uikit.min.js"></script>
+  <script src="js/components/slideshow.min.js"></script>
+  <script src="js/components/sticky.min.js"></script>
+</head>
+
+<body>
+  <div id="offcanvasstuff" class="uk-offcanvas">
+    <div class="uk-offcanvas-bar">
+      <ul class="uk-nav">
+        <li><a href="index.html">Home</a></li>
+        <li class="uk-active"><a href="california.html">California</a></li>
+        <li><a href="coming_soon.html">Hawaii</a></li>
+        <li><a href="coming_soon.html">Bahamas</a></li>
+        <li><a href="coming_soon.html">Machu Picchu</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrapper">
+    <!-- UIKIT NAVBAR -->
+    <nav class="uk-navbar" data-uk-sticky>
+      <a href="#offcanvasstuff" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
+      <ul class="uk-navbar-nav uk-hidden-small">
+        <li><a href="index.html">Home</a></li>
+        <li class="uk-active"><a href="california.html">California</a></li>
+        <li><a href="coming_soon.html">Hawaii</a></li>
+        <li><a href="coming_soon.html">Bahamas</a></li>
+        <li><a href="coming_soon.html">Machu Picchu</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    <!-- END UIKIT NAVBAR -->
+    <!-- UIKIT SLIDESHOW -->
+    <div class="uk-slidenav-position" data-uk-slideshow="{autoplay:true, kenburns:true}">
+      <ul class="uk-slideshow">
+        <li>
+          <img src="img/california/cali-header-large.jpg">
+        </li>
+      </ul>
+    </div>
+    <!-- END UIKIT SLIDESHOW -->
+    <br/>
+    <br/>
+    <div class="home-body">
+      <div class="uk-grid">
+        <div class="uk-width-1-1">
+          <h1>California. Living the dream.</h1>
+          <p>I have lived in California for over 15 years and absolutely have fallen in love with the state! I have traveled around the world and there is no comparable feeling that I experience when I am back in California. There are endless number of beaches, numerous national parks, and a variety of terrains where one can have countless hours of fun. Here are some pictures from my explorations:</p>
+        </div>
+      </div>
+      <div class="uk-grid">
+        <article class="uk-width-large-1-2 cali-pics">
+          <h2>Night Sky</h2>
+          <img src="img/california/cali1.jpg" alt="California">
+        </article>
+        <article class="uk-width-large-1-2 cali-pics">
+          <h2>Glacier Point</h2>
+          <img src="img/california/cali2.jpg" alt="Hawaii">
+        </article>
+      </div>
+      <div class="uk-grid">
+        <article class="uk-width-large-1-2 cali-pics">
+          <h2>Lake</h2>
+          <img src="img/california/cali3.jpg" alt="California">
+        </article>
+        <article class="uk-width-large-1-2 cali-pics">
+          <h2>Waterfall</h2>
+          <img src="img/california/cali4.jpg" alt="Hawaii">
+        </article>
+      </div>
+    </div>
+    <footer>
+      <div class="footer">
+        &copy 2017 Yash Patel
+      </div>
+    </footer>
+</body>
+
+</html>
